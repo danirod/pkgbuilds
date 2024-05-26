@@ -1,12 +1,12 @@
 # Maintainer: Dani Rodríguez <dani@danirod.es>
 pkgname=nordzy-icon-theme
-pkgver=1.8.6
+pkgver=1.8.7
 pkgrel=1
 epoch=
 pkgdesc="Nordzy is a free and open source icon theme for Linux desktops using the Nord color palette from Arctic Ice Studio and based on WhiteSur and Numix Icon Theme."
 arch=('any')
 url="https://github.com/alvatip/Nordzy-icon"
-license=('GPL')
+license=('GPL-3.0-only')
 depends=('hicolor-icon-theme')
 conflicts=("$pkgname-git")
 options=('!strip')
@@ -31,24 +31,24 @@ source=(
 	"Nordzy-yellow-$pkgver.tar.gz::$url/releases/download/$pkgver/Nordzy-yellow.tar.gz"
 	"Nordzy-$pkgver.tar.gz::$url/releases/download/$pkgver/Nordzy.tar.gz"
 )
-sha256sums=('0840d3983cda6aa55c0cdfa0efe42eb8231f4ecba7ba888095bd0720a906289a'
-            '7fb412f6f8d526339801b237c3261a857edf374611784085310371085a110c1a'
-            '19a09f4fb7c8b99559888bb0034f25ca2c8e0ddc7884723c17335ed78ca80b82'
-            'd52576ce511dee644be514f66e6cff388d8b4cbb8e6e2d2b1a9a4e9b7b14d03d'
-            '7aebf174146b39a6a4a22a48f206e06ab36c5f719caccb9dd4e402de4dd977c3'
-            '6a82fb7edc7c19350320a389e3af6c1e176b03981a94e009eff20b18c1d68d95'
-            'a79a8512617051647d7badd4d2e9b99b6c63780b9c64df58478a5a0d99d97120'
-            '48addafb10b0f787a05777041ab0d788c0ff07eddc4603d0f71f411b56efabd7'
-            'b963ede470aa32a9e14ac340c95c3f246567272fda0ff0d6cfead946a2cc1b8b'
-            '7468384c1a68c4ba02346189403a313644e16553b1d267f16a627b16a0dc180c'
-            'e9ca040d9bea1b49437e924bfcebf150e1e339363a52bc4ba26e1702f3415626'
-            '15db197fc90709d1327ffca76212f2c0c69c7ca427b7b92871db516ed873e83e'
-            '2ad3551a69988102deef1a3b1d494ae6ed97875fbbff58d973f0ca9c52016a7e'
-            '852457ae0facffaf3597ab2060c4537b3f81c52022196f8bd382b0fe650d2213'
-            'ede34bfcfe1b812ba342deeffc1b08bb5d87edccf7d8d69079df11b33dc076c8'
-            '33ccb54508c5ac299e01d7b2639f61ac30d28a19f983f2cbacff51d2ff1d101a'
-            'fb0101ffc46838730cb0f6000bffc18f2ee69377e50d6567c2f93eda4da46dc2'
-            'fabc1a61ac229981231bb2c0ee4731c84d9efef3da475fa37f61be1ed19f9579')
+sha256sums=('3f28fa9dac41c8662a26ae2f6d50ad34e7dd42e4cabb1b57b2291f3d7cf1878b'
+            '4fe89889d309b96eddfb50094eeadfaf1b07f58ef6efe9cbc15c7da008d941ad'
+            'ad752b5ce70577408431734fc8004f928a00027a8fce6dd131ae2d0c3dc82069'
+            '510b73bc15721452e0930d9b4a490f585d463578f5f021609f5bbfd02e1a293b'
+            'a1336304fa248a06f4da460670abf7f06225fa44e3e54d222f32cdb353711a27'
+            'a4a4d09db3d0e72fa7b2e19d6c789922e2a8c15b33d763028882b48ef6909b39'
+            'c0b5ef9c802aab1eef4ffe512147bfa93ef80a3a7fbabbac87b1fe4c400cb410'
+            'a437f20eff11b685541ffa601df404de826ee32775f6ebe1acf38f32dc9da554'
+            'b2ecdac795d57942318d35dab33cd44def92e9232a879254bbe8ebdb01f4762c'
+            '7605ca7850665e8be9a4c991b8f0311ca7b818b7282c69b29866d678dac7d641'
+            'f389764f3c47c0877cca5323e75ad59e262bd2cf1c96da4bb1abd120c96f36ac'
+            '3a802a0a3716e0b6922fe92c0d96b6d0e310af8f46ad8d51ab81c42321506719'
+            'ad2df40a34406dc7f0c38f4a17baa7e5118c5ff431324000c8e3c15f211d4ba5'
+            '8b8e17a31e92d2794ea8a2c9e9974d075df069bcd328cfdead1d368afbf00285'
+            'b9f9692dacc60853e529b6127128d5f63e255e66b96e3fa2e8f93bf352d0e243'
+            'd1f3b76ff58e7fe4a9d93cfcba2de4d041a2ff4dbf287412a5723f449d028610'
+            'b5e171b9486148fc39fabd3e94621a2955db2cec31cbaca8174ad94237ade288'
+            '38c346bc4de165b79d5b678284b63cc0fa058dccea29ec1b6fabea7117d7b8ad')
 
 _package_icon_theme() {
 	local _name="$1"
