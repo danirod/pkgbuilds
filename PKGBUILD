@@ -2,7 +2,7 @@
 # Contributor: c0repwn3r <core@coredoes.dev>
 pkgname=i386-elf-binutils
 pkgver=2.42
-pkgrel=1
+pkgrel=2
 epoch=
 pkgdesc="GNU binutils for the i386- toolchain"
 arch=(x86_64)
