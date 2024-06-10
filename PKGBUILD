@@ -31,7 +31,7 @@ check() {
 
     # unset LDFLAGS as testsuite makes assumptions about which ones are active
     # ignore failures in gold testsuite...
-    make -k LDFLAGS="" check || true}
+    make -k LDFLAGS="" check || true
 }
 
 package() {
