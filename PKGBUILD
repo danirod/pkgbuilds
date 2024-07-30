@@ -1,8 +1,8 @@
 # Maintainer: Dani Rodríguez <dani@danirod.es>
 pkgname=cartero-git
-pkgver=v0.1.0.r11.8eac764
+pkgver=v0.1.0.r32.80bef74
 pkgrel=1
-pkgdesc="Make HTTP requests and test APIs. "
+pkgdesc="Make HTTP requests and test APIs"
 arch=('x86_64')
 url="https://github.com/danirod/cartero"
 license=('GPL-3.0-or-later')

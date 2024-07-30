@@ -1,6 +1,6 @@
 pkgbase = cartero-git
-	pkgdesc = Make HTTP requests and test APIs.
-	pkgver = v0.1.0.r11.8eac764
+	pkgdesc = Make HTTP requests and test APIs
+	pkgver = v0.1.0.r32.80bef74
 	pkgrel = 1
 	url = https://github.com/danirod/cartero
 	arch = x86_64
