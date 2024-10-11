@@ -1,6 +1,6 @@
 # Maintainer: Dani Rodríguez <dani@danirod.es>
 pkgname=cartero
-pkgver=0.1.1
+pkgver=0.1.2
 pkgrel=1
 epoch=
 pkgdesc="Make HTTP requests and test APIs"
@@ -12,7 +12,7 @@ makedepends=('blueprint-compiler' 'git' 'meson' 'rust')
 conflicts=()
 options=('!lto' '!strip')
 source=("$pkgname-$pkgver.tar.gz::https://github.com/danirod/cartero/releases/download/v$pkgver/cartero-$pkgver.tar.xz")
-sha256sums=('1bcbcafc9322c7e565daaab522cb69335f897f7ff416a3432ad6e45e50dd40bd')
+sha256sums=('d06ed9dacab343c190adfc7df11665ea0851dbf9f40d04c0f5065146921cc194')
 
 build() {
 	# To disable client side decorations in your build (and enhance the
