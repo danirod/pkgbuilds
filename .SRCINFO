@@ -1,6 +1,6 @@
 pkgbase = cartero
 	pkgdesc = Make HTTP requests and test APIs
-	pkgver = 0.2.0
+	pkgver = 0.2.1
 	pkgrel = 1
 	url = https://github.com/danirod/cartero
 	arch = x86_64
@@ -17,7 +17,7 @@ pkgbase = cartero
 	depends = openssl
 	options = !lto
 	options = !strip
-	source = cartero-0.2.0.tar.xz::https://github.com/danirod/cartero/releases/download/v0.2.0/cartero-0.2.0.tar.xz
-	sha256sums = 9bb20c1f8951ca284d5111098a26c7a871f352fc56efee6ee97ab5e76f8540a4
+	source = cartero-0.2.1.tar.xz::https://github.com/danirod/cartero/releases/download/v0.2.1/cartero-0.2.1.tar.xz
+	sha256sums = 65637ebba596a663d656a93016f2f12c8bc013d96bd810abb5ef2ab09e106b65
 
 pkgname = cartero
