@@ -1,0 +1,3 @@
+[python-mastodon]
+source = "pypi"
+pypi = "Mastodon.py"

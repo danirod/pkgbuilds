@@ -1,6 +1,6 @@
 pkgbase = python-mastodon
 	pkgdesc = Python wrapper for the Mastodon API
-	pkgver = 2.0.0
+	pkgver = 2.0.1
 	pkgrel = 1
 	url = https://github.com/halcy/Mastodon.py
 	arch = any
@@ -24,7 +24,7 @@ pkgbase = python-mastodon
 	depends = python-halcy-blurhash
 	optdepends = python-cryptography: webpush support
 	optdepends = python-http-ece: webpush support
-	source = Mastodon.py-2.0.0.tar.gz::https://github.com/halcy/Mastodon.py/archive/2.0.0.tar.gz
-	sha512sums = abf2d6420da989980084807417f8a92c8f50fd0bb6cdb3ddf1fc3cca5190ac181ec2c47b243943927eca9a2f073fc09f3ee2bdeeaf6a47da13e36931531b60cd
+	source = Mastodon.py-2.0.1.tar.gz::https://github.com/halcy/Mastodon.py/archive/v2.0.1.tar.gz
+	sha512sums = 36476114e8ce9902975a12412db2eaea9c06f507a2c085a2db35c26ab15cb48589cb63ceb0cf2e86b04cdc1fbe03b678cc61ee4ba757aacdc42ba98f4a8b213a
 
 pkgname = python-mastodon
