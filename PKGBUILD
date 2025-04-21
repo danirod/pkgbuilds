@@ -1,7 +1,7 @@
 # Maintainer: danirod <dani@danirod.es>
 # Contributor: c0repwn3r <core@coredoes.dev>
 pkgname=i386-elf-gdb
-pkgver=16.2
+pkgver=16.3
 pkgrel=1
 epoch=
 pkgdesc="GNU debugger crosscompiled for i386 development"
@@ -14,7 +14,7 @@ depends=(xz libmpc i386-elf-gcc gdb) # GDB is included to prevent conflicts with
 source=(
     "http://ftpmirror.gnu.org/gdb/gdb-$pkgver.tar.xz"
 )
-sha256sums=('4002cb7f23f45c37c790536a13a720942ce4be0402d929c9085e92f10d480119')
+sha256sums=('bcfcd095528a987917acf9fff3f1672181694926cc18d609c99d0042c00224c5')
 OPTIONS=(!strip)
 
 build() {
