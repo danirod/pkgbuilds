@@ -1,0 +1,4 @@
+[i386-elf-gcc]
+source = "regex"
+url = "https://ftp.gnu.org/gnu/gcc/"
+regex = "gcc-([0-9.]+)/"
