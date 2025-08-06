@@ -39,6 +39,11 @@ build() {
     make all-target-libgcc
 }
 
+check() {
+    cd "i386-gcc-$pkgver-build"
+    make -k check-gcc
+}
+
 package() {
     cd "i386-gcc-$pkgver-build"
     make install-gcc DESTDIR=$pkgdir
