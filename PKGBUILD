@@ -6,7 +6,7 @@
 # Contributor: gue5t <gue5t@aur.archlinux.org>
 _base=Mastodon.py
 pkgname=python-mastodon
-pkgver=2.0.1
+pkgver=2.1.4
 pkgrel=1
 pkgdesc="Python wrapper for the Mastodon API"
 arch=(any)
@@ -15,10 +15,11 @@ license=(MIT)
 depends=(python-requests python-dateutil python-magic python-decorator python-halcy-blurhash)
 makedepends=(python-build python-installer python-setuptools python-wheel)
 optdepends=('python-cryptography: webpush support'
+  'python-grapheme: support for the get_status_length function, if required'
   'python-http-ece: webpush support')
-checkdepends=(python-pytest-runner python-pytest-cov python-pytest-vcr python-pytest-mock python-requests-mock python-pytz python-cryptography python-http-ece)
+checkdepends=(python-pytest-runner python-pytest-cov python-pytest-vcr python-pytest-mock python-requests-mock python-pytz python-cryptography python-http-ece python-grapheme)
 source=(${_base}-${pkgver}.tar.gz::${url}/archive/v${pkgver}.tar.gz)
-sha512sums=('36476114e8ce9902975a12412db2eaea9c06f507a2c085a2db35c26ab15cb48589cb63ceb0cf2e86b04cdc1fbe03b678cc61ee4ba757aacdc42ba98f4a8b213a')
+sha512sums=('db644f23dfc4c1da86647592e5dd2090f19e657d2339b132c85d7d51c149e281d310f3b6c665ac4da169825e2cadbcc7ba005cb09c5bf5689f21fa62076c3e31')
 
 build() {
   cd ${_base}-${pkgver}
