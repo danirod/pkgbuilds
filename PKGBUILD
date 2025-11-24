@@ -1,3 +1,4 @@
+# Maintainer: Dani Rodriguez <dani@danirod.es>
 # Contributor: Marcell Meszaros < marcell.meszaros AT runbox.eu >
 # Contributor: Luis Martinez <luis dot martinez at disroot dot org>
 # Contributor: carstene1ns <arch carsten-teibes de> - http://git.io/ctPKG
