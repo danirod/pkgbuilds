@@ -1,0 +1,5 @@
+[cartero]
+source = "git"
+git = "https://github.com/danirod/cartero"
+prefix = "v"
+exclude_regex = ".*(beta).*"

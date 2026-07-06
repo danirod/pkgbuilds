@@ -1,0 +1,23 @@
+pkgbase = cartero
+	pkgdesc = Make HTTP requests and test APIs
+	pkgver = 26.0
+	pkgrel = 1
+	url = https://github.com/danirod/cartero
+	arch = x86_64
+	license = GPL-3.0-or-later
+	makedepends = blueprint-compiler
+	makedepends = git
+	makedepends = meson
+	makedepends = rust
+	depends = curl
+	depends = glib2
+	depends = gtk4
+	depends = gtksourceview5
+	depends = libadwaita
+	depends = openssl
+	options = !lto
+	options = !strip
+	source = cartero-26.0.tar.xz::https://github.com/danirod/cartero/releases/download/v26.0/cartero-26.0.tar.xz
+	sha256sums = b8a6a610622b606e91f8971ad54b85f0bc971a69329b48ece297207b19bf3812
+
+pkgname = cartero
