@@ -1,0 +1,12 @@
+# nvchecker
+oldver.json~
+
+# downloads
+*.tar.gz
+*.tar.xz
+
+# working dirs
+*/**
+
+# pacman packages
+*.pkg.tar.zst

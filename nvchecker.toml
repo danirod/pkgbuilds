@@ -1,0 +1,10 @@
+[__config__]
+oldver = "oldver.json"
+newver = "newver.json"
+
+## PACKAGES ##
+[cartero]
+source = "git"
+git = "https://github.com/danirod/cartero"
+prefix = "v"
+exclude_regex = ".*(beta).*"

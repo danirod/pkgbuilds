@@ -1,0 +1,20 @@
+[tasks.setup]
+run = "aurpublish setup"
+
+[tasks.nvchecker]
+depends = ["nvmerge"]
+run = "nvchecker -c nvchecker.toml"
+
+[tasks.nvcmp]
+depends = ["nvmerge"]
+run = "nvcmp -c nvchecker.toml"
+
+[tasks.nvtake]
+depends = ["nvmerge"]
+run = "nvtake -c nvchecker.toml"
+
+[tasks.nvmerge]
+run = '''
+awk -i inplace '{ print $0 } /^## PACKAGES ##$/ { exit 0 }' nvchecker.toml
+cat */.nvchecker.toml >> nvchecker.toml
+'''
