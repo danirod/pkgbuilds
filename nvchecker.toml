@@ -8,3 +8,7 @@ source = "git"
 git = "https://github.com/danirod/cartero"
 prefix = "v"
 exclude_regex = ".*(beta).*"
+[i386-elf-binutils]
+source = "regex"
+url = "https://ftp.gnu.org/gnu/binutils/"
+regex = "binutils-([0-9.]+).tar.xz"

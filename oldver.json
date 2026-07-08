@@ -5,6 +5,9 @@
       "version": "26.0",
       "gitref": "refs/tags/v26.0",
       "revision": "b16e834f76a387b4f1a60eeb61814535c436c610"
+    },
+    "i386-elf-binutils": {
+      "version": "2.45.1"
     }
   }
 }
