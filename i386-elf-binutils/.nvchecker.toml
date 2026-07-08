@@ -1,0 +1,4 @@
+[i386-elf-binutils]
+source = "regex"
+url = "https://ftp.gnu.org/gnu/binutils/"
+regex = "binutils-([0-9.]+).tar.xz"
