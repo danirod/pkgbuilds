@@ -6,7 +6,7 @@ oldver.json~
 *.tar.xz
 
 # working dirs
-*/**
+*/**/
 
 # pacman packages
 *.pkg.tar.zst
