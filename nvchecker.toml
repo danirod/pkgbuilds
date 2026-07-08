@@ -16,3 +16,8 @@ regex = "binutils-([0-9.]+).tar.xz"
 source = "regex"
 url = "https://ftp.gnu.org/gnu/gcc/"
 regex = "gcc-([0-9.]+)/"
+[i386-elf-gdb]
+source = "git"
+git = "https://sourceware.org/git/binutils-gdb.git"
+include_regex = "gdb-.*-release"
+prefix = "gdb-"

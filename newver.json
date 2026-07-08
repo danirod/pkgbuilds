@@ -11,6 +11,11 @@
     },
     "i386-elf-gcc": {
       "version": "16.1.0"
+    },
+    "i386-elf-gdb": {
+      "version": "17.2-release",
+      "gitref": "refs/tags/gdb-17.2-release",
+      "revision": "9eb6027c2d9e20169cd0376784a5b068667a89d1"
     }
   }
 }
