@@ -8,6 +8,9 @@
     },
     "i386-elf-binutils": {
       "version": "2.45.1"
+    },
+    "i386-elf-gcc": {
+      "version": "15.2.0"
     }
   }
 }

@@ -12,3 +12,7 @@ exclude_regex = ".*(beta).*"
 source = "regex"
 url = "https://ftp.gnu.org/gnu/binutils/"
 regex = "binutils-([0-9.]+).tar.xz"
+[i386-elf-gcc]
+source = "regex"
+url = "https://ftp.gnu.org/gnu/gcc/"
+regex = "gcc-([0-9.]+)/"
