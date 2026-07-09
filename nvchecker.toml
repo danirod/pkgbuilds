@@ -24,6 +24,9 @@ prefix = "gdb-"
 [nordzy-icon-theme]
 source = "git"
 git = "https://github.com/MolassesLover/Nordzy-icon"
+[python-graphemeu]
+source = "pypi"
+pypi = "graphemeu"
 [python-mastodon]
 source = "pypi"
 pypi = "Mastodon.py"
