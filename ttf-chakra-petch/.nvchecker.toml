@@ -1,0 +1,4 @@
+[ttf-chakra-petch]
+source = "git"
+git = "https://github.com/cadsondemak/chakra-petch"
+use_commit = true

@@ -21,3 +21,21 @@ source = "git"
 git = "https://sourceware.org/git/binutils-gdb.git"
 include_regex = "gdb-.*-release"
 prefix = "gdb-"
+[nordzy-icon-theme]
+source = "git"
+git = "https://github.com/MolassesLover/Nordzy-icon"
+[python-mastodon]
+source = "pypi"
+pypi = "Mastodon.py"
+[python-xmlformatter]
+source = "pypi"
+pypi = "xmlformatter"
+[tootstream]
+source = "git"
+git = "https://github.com/magicalraccoon/tootstream"
+prefix = "v"
+exclude_regex = ".*(beta).*"
+[ttf-chakra-petch]
+source = "git"
+git = "https://github.com/cadsondemak/chakra-petch"
+use_commit = true

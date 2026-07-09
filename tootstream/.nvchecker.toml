@@ -1,0 +1,5 @@
+[tootstream]
+source = "git"
+git = "https://github.com/magicalraccoon/tootstream"
+prefix = "v"
+exclude_regex = ".*(beta).*"

@@ -16,6 +16,28 @@
       "version": "17.2-release",
       "gitref": "refs/tags/gdb-17.2-release",
       "revision": "9eb6027c2d9e20169cd0376784a5b068667a89d1"
+    },
+    "nordzy-icon-theme": {
+      "version": "1.8.7",
+      "gitref": "refs/tags/1.8.7",
+      "revision": "7ccbe5e9133d513a9a53c401ab18e35f04c4eab7"
+    },
+    "python-mastodon": {
+      "version": "2.2.1",
+      "url": "https://pypi.org/project/Mastodon.py/2.2.1/"
+    },
+    "python-xmlformatter": {
+      "version": "0.2.9",
+      "url": "https://pypi.org/project/xmlformatter/0.2.9/"
+    },
+    "tootstream": {
+      "version": "0.4.0",
+      "gitref": "refs/tags/0.4.0",
+      "revision": "2e60e7045b75cc363cd0cc9d5281a5a3df9efa99"
+    },
+    "ttf-chakra-petch": {
+      "version": "3fc2b8f9443f871cc431ec4feb7c1a538c30e634",
+      "revision": "3fc2b8f9443f871cc431ec4feb7c1a538c30e634"
     }
   }
 }
