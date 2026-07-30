@@ -7,7 +7,7 @@
       "revision": "b16e834f76a387b4f1a60eeb61814535c436c610"
     },
     "i386-elf-binutils": {
-      "version": "2.46.1"
+      "version": "2.47"
     },
     "i386-elf-gcc": {
       "version": "16.1.0"
