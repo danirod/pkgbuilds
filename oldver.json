@@ -10,7 +10,7 @@
       "version": "2.47"
     },
     "i386-elf-gcc": {
-      "version": "16.1.0"
+      "version": "16.2.0"
     },
     "i386-elf-gdb": {
       "version": "17.2-release",
